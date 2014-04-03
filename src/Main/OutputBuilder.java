@@ -25,10 +25,10 @@ public class OutputBuilder {
 	private void buildData() throws IOException {
 		String str;
 	    while ((str = br.readLine()) != null && str.length() != 0){
-	    	if(str.contains("IP address:")){
-	    		String[] split = str.split("\\s+");
+	    	if(str.contains("Entry address")){
+	    		String line = br.readLine();
+	    		String[] split = line.split("\\s+");
 	    		IP.add(split[3]);
-	    		br.readLine();
 	    	}
 	    	else if(str.contains("Port ID (outgoing port)")){
 	    		str = str.replace("GigabitEthernet", "G");
