@@ -13,8 +13,8 @@ import javax.swing.JTextPane;
 
 
 public class Window extends JFrame implements ActionListener{
-	private JTextField username = new JTextField("tmh11009", 25);
-	private JPasswordField password = new JPasswordField("the8raj", 25);
+	private JTextField username = new JTextField("Username", 25);
+	private JPasswordField password = new JPasswordField("Password", 25);
 	private JTextField IP = new JTextField("IP", 25);
 	private JTextPane pane = new JTextPane();
 	
