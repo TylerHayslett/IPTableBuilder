@@ -1,0 +1,44 @@
+tmh11009to Microsoft Telnet Client
+the8raj
+ 
+   University of Connecticut
+   Authorized access only!
+   Federal/State laws enforced.
+username: tmh11009
+password:
+WH-SOS-BDF-sw1#show cdp neighbor detail | include IP address
+  IP address: 10.65.221.78
+  IP address: 10.65.221.78
+  IP address: 10.65.221.77
+  IP address: 10.65.221.77
+  IP address: 10.65.221.72
+  IP address: 10.65.221.72
+  IP address: 10.65.221.71
+  IP address: 10.65.221.71
+  IP address: 10.65.221.73
+  IP address: 10.65.221.73
+  IP address: 10.65.221.76
+  IP address: 10.65.221.76
+  IP address: 10.65.221.75
+  IP address: 10.65.221.75
+  IP address: 10.65.220.1
+  IP address: 10.65.220.1
+  IP address: 10.65.221.79
+  IP address: 10.65.221.79
+  IP address: 10.65.221.74
+  IP address: 10.65.221.74
+  IP address: 10.65.221.80
+  IP address: 10.65.221.80
+WH-SOS-BDF-sw1#show cdp neighbor detail | include outgoing
+Interface: GigabitEthernet0/8,  Port ID (outgoing port): GigabitEthernet0/1
+Interface: GigabitEthernet0/7,  Port ID (outgoing port): GigabitEthernet0/1
+Interface: GigabitEthernet0/2,  Port ID (outgoing port): GigabitEthernet0/1
+Interface: GigabitEthernet0/1,  Port ID (outgoing port): GigabitEthernet0/1
+Interface: GigabitEthernet0/3,  Port ID (outgoing port): GigabitEthernet0/1
+Interface: GigabitEthernet0/6,  Port ID (outgoing port): GigabitEthernet0/1
+Interface: GigabitEthernet0/5,  Port ID (outgoing port): GigabitEthernet0/1
+Interface: GigabitEthernet0/21,  Port ID (outgoing port): GigabitEthernet1/15
+Interface: GigabitEthernet0/9,  Port ID (outgoing port): GigabitEthernet0/1
+Interface: GigabitEthernet0/4,  Port ID (outgoing port): GigabitEthernet0/1
+Interface: GigabitEthernet0/10,  Port ID (outgoing port): GigabitEthernet0/1
+WH-SOS-BDF-sw1#quit

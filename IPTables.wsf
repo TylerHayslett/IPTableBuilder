@@ -1,0 +1,13 @@
+<job id="IncludeExample">
+   <script language="VBScript">
+	Dim oShell, count
+	Set oShell = CreateObject("WScript.Shell")
+	oShell.sendkeys "telnet " + WScript.Arguments.Item(0) + " -f c:\users\student2435\desktop\output.txt~"
+	oShell.Sendkeys WScript.Arguments.Item(1) + "~"
+	oShell.Sendkeys WScript.Arguments.Item(2) + "~"
+	oShell.Sendkeys "show cdp neighbor detail | include IP address~"
+	oShell.Sendkeys "show cdp neighbor detail | include outgoing~"
+	oShell.Sendkeys "quit"
+	oShell.Sendkeys "~"
+   </script>
+</job>
